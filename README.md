@@ -27,7 +27,9 @@ You can find the malware code in the [Conquer](./Conquer) directory. Once you've
 
 4. **Secure**: Input something into the `Secure Password`, and you'll see nothing :)
 
-**P.S.**: In scenarios 2 and 3, you'll need to know the view id or content description of the password input box in advance. We recommend to use `adb shell uiautomator dump` to dump the UI hierarchy information of the login window, and you should be able to find the information you need.
+**P.S.**: In scenarios 2 and 3, you'll need to know the view id or content description of the password input box in advance if you want to try other targets. We recommend to use `adb shell uiautomator dump` to dump the UI hierarchy information of the login window, and you should be able to find the information you need.
+
+Also, be sure to change the package name stored in the `victim` variable in the source code (`Conquer\app\src\main\java\com\example\conquer\Conquer.java`) if you want to try other targets.
 
 ## Password Recovery Method
 Coming soon ...
