@@ -44,3 +44,8 @@ Coming soon...
   year={2023}
 }
 ```
+
+## Contact
+Open an issue if you have any questions.
+
+Or you can contact the first author of the paper through email: leicq@seu.edu.cn
