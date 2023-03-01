@@ -1,13 +1,13 @@
 # Content Queries (CONQUER) Attack 
 
-This repository contains the artifacts of our [NDSS'23](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f5_paper.pdf) paper titled ***Do Not Give a Dog Bread Every Time He Wags His Tail: Stealing Passwords through Content Queries (CONQUER) Attack***. Please refer to the paper for more details about the attack.
+This repository contains the artifacts of our NDSS'23 paper titled [***Do Not Give a Dog Bread Every Time He Wags His Tail: Stealing Passwords through Content Queries (CONQUER) Attack***]((https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f5_paper.pdf)). Please refer to the paper for more details about the attack.
 
 
 ## Demos
 You can build the demo using Android Studio.
 
 ### The Victim
-You can find a sample victim app in the [LoginDemo](./LoginDemo) directory. Once you've launched the victim app, you will see four password input boxes: 
+There is an example victim app in the [LoginDemo](./LoginDemo) directory. Once you've launched the victim app, you will see four password input boxes: 
 * `Password`: This is the normal password input box
 * `Password with Content Description`: This is the password input box with a content description "pwd".
 * `Password with Defense`: This is the password input box that never sends `AccessibilityEvent`s
@@ -16,7 +16,7 @@ You can find a sample victim app in the [LoginDemo](./LoginDemo) directory. Once
 Once you've installed and configured the malware, enter something into one of these password input boxes and click the `SIGN IN OR REGISTER` button, you should be able to see the output in the console of the malware app.
 
 ### The Malware
-You can find the malware code in the [Conquer](./Conquer) directory. Once you've installed the malware, please grant it with the accessibility service permission in the system settings. After this, the malware should function normally.
+The malware's source code in the [Conquer](./Conquer) directory. Once you've installed the malware, please grant it with the accessibility service permission in the system settings. After this, the malware should function normally.
 
 ### Attack Scenarios
 1. **Normal**: Input something into the `Password`, and you'll see the case-insensitive version of the string and input time intervals.
@@ -32,7 +32,7 @@ You can find the malware code in the [Conquer](./Conquer) directory. Once you've
 Also, be sure to change the package name stored in the `victim` variable in the source code (`Conquer\app\src\main\java\com\example\conquer\Conquer.java`) if you want to try other targets.
 
 ## Password Recovery Method
-Coming soon ...
+Coming soon...
 
 ## Scanning Framework
 Coming soon...
