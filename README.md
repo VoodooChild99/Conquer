@@ -1,6 +1,6 @@
 # Content Queries (CONQUER) Attack 
 
-This repository contains the artifacts of our NDSS'23 paper titled [***Do Not Give a Dog Bread Every Time He Wags His Tail: Stealing Passwords through Content Queries (CONQUER) Attack***]((https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f5_paper.pdf)). Please refer to the paper for more details about the attack.
+This repository contains the artifacts of our NDSS'23 paper titled [***Do Not Give a Dog Bread Every Time He Wags His Tail: Stealing Passwords through Content Queries (CONQUER) Attack***](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f5_paper.pdf). Please refer to the paper for more details about the attack.
 
 
 ## Demos
